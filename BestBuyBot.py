@@ -22,7 +22,7 @@ while not foundButton:
     if('c-button-disabled' in addToCartButton.get_attribute('class')):
 
         # refresh time (default is 3 seconds, you can change it but be careful that the page deosnt crash)
-        time.sleep(2)
+        time.sleep(3)
         driver.refresh()
     else:
         foundButton = True
