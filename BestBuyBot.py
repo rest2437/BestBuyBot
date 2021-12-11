@@ -9,8 +9,8 @@ driver = webdriver.Chrome()  # if using firefox, comment out this line
 # driver.get('PASTE_TEST_LINK_HERE')
 
 # # website to scalp from (12/07/2021 PS5 link)
-# driver.get(
-#     'https://www.bestbuy.com/site/sony-playstation-5-console/6426149.p?skuId=6426149')
+driver.get(
+    'https://www.bestbuy.com/site/sony-playstation-5-console/6426149.p?skuId=6426149')
 
 foundButton = False
 
@@ -22,7 +22,7 @@ while not foundButton:
     if('c-button-disabled' in addToCartButton.get_attribute('class')):
 
         # refresh time (default is 3 seconds, you can change it but be careful that the page deosnt crash)
-        time.sleep(3)
+        time.sleep(2)
         driver.refresh()
     else:
         foundButton = True
