@@ -1,11 +1,8 @@
 import time
-
-# driver.find_element_by_class_name is no longer supported, so we need to import "By" to use new syntax.
 from selenium.webdriver.common.by import By
-
 from selenium import webdriver
 
-driver = webdriver.Chrome()
+driver = webdriver.Chrome()  # if using firefox, comment out this line
 # driver = webdriver.Firefox()
 
 # # uncomment next line and insert a new link to test a product with a good yellow "add to cart" button
