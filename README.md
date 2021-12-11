@@ -66,6 +66,6 @@
 
 ---
 
-### Stretch Global
+### Stretch Goals
 
 - I want this bot to eventually be able to go through with the purchase and input the customers info.
