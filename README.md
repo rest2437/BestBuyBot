@@ -1,8 +1,12 @@
 # To Install the Best Buy Bot
 
+These instructions are for Mac users only.
+
+---
+
 ## Clone this Repo to your machine.
 
-- link
+- [BestBuyBot](https://github.com/rest2437/BestBuyBot.git)
 - Open in VScode.
 
 ---
@@ -11,7 +15,7 @@
 
 ### No:
 
-- Please reference the Python documentation for installing Python.
+- Please reference the [Python documentation](https://www.python.org/downloads/) for installing Python.
 
 ### Yes:
 
@@ -44,8 +48,8 @@
 - 2. Based on your CPU model, the file will either be [geckodriver-v0.30.0-macos-aarch64.tar.gz](https://github.com/mozilla/geckodriver/releases/download/v0.30.0/geckodriver-v0.30.0-macos-aarch64.tar.gz) or [geckodriver-v0.30.0-macos.tar.gz](https://github.com/mozilla/geckodriver/releases/download/v0.30.0/geckodriver-v0.30.0-macos.tar.gz)
 - 3. Once it appears in your downloads folder, extract the zip file and move the "geckodriver" file from the downloads
      folder to the "/usr/local/bin" PATH.
-- 4. Comment out line 8
-- 5. Uncomment line 9
+- 4. In BestBuyBot.py, locate and comment out line 8
+- 5. In BestBuyBot.py, locate and uncomment line 9
 
 ### Test program
 
@@ -55,6 +59,7 @@
 - 4. Save the file
 - 5. Run the scrypt by pressing the play button on the upper right corner of the screen.
 - 6. If everything works fine, comment out line 11 and uncomment lines 15 and 16 that are preset to PS5
+- 7. Run the program and watch it work!
 
 ---
 
